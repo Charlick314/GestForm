@@ -39,9 +39,9 @@ def gestform(nombre):
 # - Main -
 if __name__ == '__main__':
 
-    test = liste_aleatoire(8)
-    print(test)
+    liste = liste_aleatoire(8)
+    print(liste)
 
-    for i in test:
+    for i in liste:
       print(gestform(i))
 
