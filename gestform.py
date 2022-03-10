@@ -1,8 +1,11 @@
 import random
 
 
-# 'est_divisible' renvoie si 'nombre' est divisible par 'denominateur_1' et 'denominateur_2'
-# si 'denominateur_2' n'est pas spécifié, renvoie si 'nombre' est divisible par 'denominateur_1' uniquement
+# 'est_divisible' renvoie 'True' si 'nombre' est divisible
+# par 'denominateur_1' et 'denominateur_2'
+
+# si 'denominateur_2' n'est pas spécifié, renvoie 'True'
+# si 'nombre' est divisible par 'denominateur_1' uniquement
 
 def est_divisible(nombre, denominateur_1, denominateur_2 = 1):
     return (nombre % denominateur_1 == 0) and (nombre % denominateur_2 == 0)
